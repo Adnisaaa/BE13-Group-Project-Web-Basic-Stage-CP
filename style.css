@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  /* margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  color: black; */
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: rgba(145, 179, 126, 0.699);
+}
+
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 50px;
+  background-color: rgba(145, 179, 126, 0.699);
+  font-weight: 600;
+  font-size: 29px;
+} */
+
+/* ul {
+  display: flex;
+}
+
+ul li {
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+ul li a {
+  padding: 8px 20px;
+  border-radius: 25px;
+} */
+
+/* ul li a:hover {
+  background-color: rgb(15, 41, 23);
+  color: #fff;
+} */
+
+.rekom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.rekom img {
+  width: 230px;
+  height: 170px;
+}
+
+.rekom2 {
+  padding: 20px;
+}
+
+.rekom2 img {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  /* biar tengahnya berjarak -> justify */
+  /* justify-content: */
+  padding: 50px;
+  background-color: rgba(145, 179, 126, 0.5);
+  font-size: 19px;
+}
+
+.abt-text {
+  padding: 0px 50px;
+}
+
+.abt-content {
+  padding: 0 70px 50px 70px;
+  background-color: rgba(145, 179, 126, 0.5);
+  font-size: 17px;
+}
+
+#news {
+  padding: 20px 70px;
+}
+.footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(145, 179, 126, 0.699);
+  font-weight: 500;
+}
